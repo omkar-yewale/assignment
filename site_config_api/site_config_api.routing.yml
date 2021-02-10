@@ -1,0 +1,12 @@
+apikey.content:
+  path: '/data/{apikey}/{node}'
+  defaults:
+    _controller: '\Drupal\site_config_api\Controller\ApiKeyController::content'
+  options:
+      parameters:
+        apikey:
+          type: String
+        node:
+          type: entity:node
+  requirements:
+    _permission: 'access content'

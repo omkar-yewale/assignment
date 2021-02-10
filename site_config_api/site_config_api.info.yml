@@ -1,0 +1,6 @@
+name: site config api
+description: alter site config form
+type: module
+core: '8.x'
+core_version_requirement: ^8 || ^9
+package: 'Custom'

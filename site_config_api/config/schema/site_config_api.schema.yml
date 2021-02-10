@@ -1,0 +1,7 @@
+# Extendig the system.site configuration
+system.site:
+  mapping:
+    # creating schema by using field name (apikey).
+    apikey:
+      type: label
+      label: 'Site API Keys'
